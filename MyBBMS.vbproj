@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{971E96D7-A067-47AC-B162-A93C07781CC8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MyBBMS.My.MyApplication</StartupObject>
+    <RootNamespace>MyBBMS</RootNamespace>
+    <AssemblyName>MyBBMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MyBBMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MyBBMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="XanderUI">
+      <HintPath>..\..\..\..\Downloads\XanderUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewDonor.Designer.vb">
+      <DependentUpon>AddNewDonor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewDonor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewEmployee.Designer.vb">
+      <DependentUpon>AddNewEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewUser.Designer.vb">
+      <DependentUpon>AddNewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BloodBag.Designer.vb">
+      <DependentUpon>BloodBag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BloodBag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSalary.Designer.vb">
+      <DependentUpon>EmployeeSalary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSalary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpSalarySlip.Designer.vb">
+      <DependentUpon>EmpSalarySlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpSalarySlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpSalaryTnxReport.Designer.vb">
+      <DependentUpon>EmpSalaryTnxReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmpSalaryTnxReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HospitaIDetails.Designer.vb">
+      <DependentUpon>HospitaIDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HospitaIDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HospitalTxnReport.Designer.vb">
+      <DependentUpon>HospitalTxnReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalTxnReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HospitalTxnSlip.Designer.vb">
+      <DependentUpon>HospitalTxnSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalTxnSlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyBBMSDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyBBMSDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyBBMSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegDonorTxnReport.Designer.vb">
+      <DependentUpon>RegDonorTxnReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegDonorTxnReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegDonorTxnSlip.Designer.vb">
+      <DependentUpon>RegDonorTxnSlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegDonorTxnSlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchByBloodGroup.Designer.vb">
+      <DependentUpon>SearchByBloodGroup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchByBloodGroup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDonorByDate.Designer.vb">
+      <DependentUpon>SearchDonorByDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDonorByDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchDonorByLocation.Designer.vb">
+      <DependentUpon>SearchDonorByLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDonorByLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllDonor.Designer.vb">
+      <DependentUpon>ShowAllDonor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllDonor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllEmployee.Designer.vb">
+      <DependentUpon>ShowAllEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllHospital.Designer.vb">
+      <DependentUpon>ShowAllHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllHospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllUser.Designer.vb">
+      <DependentUpon>ShowAllUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowStockDetails.Designer.vb">
+      <DependentUpon>ShowStockDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowStockDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToHospital.Designer.vb">
+      <DependentUpon>ToHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToHospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToRegisteredDonor.Designer.vb">
+      <DependentUpon>ToRegisteredDonor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ToRegisteredDonor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBloodBag.Designer.vb">
+      <DependentUpon>UpdateBloodBag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBloodBag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDonor.Designer.vb">
+      <DependentUpon>UpdateDonor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDonor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmployee.Designer.vb">
+      <DependentUpon>UpdateEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateUser.Designer.vb">
+      <DependentUpon>UpdateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_DeleteHospital.Designer.vb">
+      <DependentUpon>Update_DeleteHospital.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Update_DeleteHospital.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddNewDonor.resx">
+      <DependentUpon>AddNewDonor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewEmployee.resx">
+      <DependentUpon>AddNewEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewUser.resx">
+      <DependentUpon>AddNewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BloodBag.resx">
+      <DependentUpon>BloodBag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSalary.resx">
+      <DependentUpon>EmployeeSalary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpSalarySlip.resx">
+      <DependentUpon>EmpSalarySlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpSalaryTnxReport.resx">
+      <DependentUpon>EmpSalaryTnxReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HospitaIDetails.resx">
+      <DependentUpon>HospitaIDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HospitalTxnReport.resx">
+      <DependentUpon>HospitalTxnReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HospitalTxnSlip.resx">
+      <DependentUpon>HospitalTxnSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegDonorTxnReport.resx">
+      <DependentUpon>RegDonorTxnReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegDonorTxnSlip.resx">
+      <DependentUpon>RegDonorTxnSlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchByBloodGroup.resx">
+      <DependentUpon>SearchByBloodGroup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDonorByDate.resx">
+      <DependentUpon>SearchDonorByDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchDonorByLocation.resx">
+      <DependentUpon>SearchDonorByLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllDonor.resx">
+      <DependentUpon>ShowAllDonor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllEmployee.resx">
+      <DependentUpon>ShowAllEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllHospital.resx">
+      <DependentUpon>ShowAllHospital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowAllUser.resx">
+      <DependentUpon>ShowAllUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowStockDetails.resx">
+      <DependentUpon>ShowStockDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToHospital.resx">
+      <DependentUpon>ToHospital.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToRegisteredDonor.resx">
+      <DependentUpon>ToRegisteredDonor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBloodBag.resx">
+      <DependentUpon>UpdateBloodBag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDonor.resx">
+      <DependentUpon>UpdateDonor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmployee.resx">
+      <DependentUpon>UpdateEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateUser.resx">
+      <DependentUpon>UpdateUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_DeleteHospital.resx">
+      <DependentUpon>Update_DeleteHospital.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="MyBBMSDataSet.xsc">
+      <DependentUpon>MyBBMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet.xss">
+      <DependentUpon>MyBBMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet1.xsc">
+      <DependentUpon>MyBBMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet1.xss">
+      <DependentUpon>MyBBMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet2.xsc">
+      <DependentUpon>MyBBMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet2.xss">
+      <DependentUpon>MyBBMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet3.xsc">
+      <DependentUpon>MyBBMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet3.xss">
+      <DependentUpon>MyBBMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet4.xsc">
+      <DependentUpon>MyBBMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet4.xss">
+      <DependentUpon>MyBBMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet5.xsc">
+      <DependentUpon>MyBBMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet5.xss">
+      <DependentUpon>MyBBMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet6.xsc">
+      <DependentUpon>MyBBMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet6.xss">
+      <DependentUpon>MyBBMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet7.xsc">
+      <DependentUpon>MyBBMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="MyBBMSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyBBMSDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyBBMSDataSet7.xss">
+      <DependentUpon>MyBBMSDataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

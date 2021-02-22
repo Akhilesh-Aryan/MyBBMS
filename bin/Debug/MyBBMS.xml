@@ -1,0 +1,472 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyBBMS
+</name>
+</assembly>
+<members>
+<member name="T:MyBBMS.MyBBMSDataSet.newBloodBagDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet.newBloodBagRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet.newBloodBagRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSetTableAdapters.newBloodBagTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1TableAdapters.UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4.txnToHospitalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4.txnToHospitalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4.txnToHospitalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4TableAdapters.txnToHospitalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7.EmpSalaryTnxDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7.EmpSalaryTnxRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7.EmpSalaryTnxRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7TableAdapters.EmpSalaryTnxTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:MyBBMS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MyBBMS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MyBBMS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.DonorsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.EmployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.DonorsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.EmployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.DonorsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.EmployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.DonorsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.EmployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.UserTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6.txnToDonorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6.txnToDonorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6.txnToDonorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6TableAdapters.txnToDonorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5.newBloodBagDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5.newBloodBagRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5.newBloodBagRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5TableAdapters.newBloodBagTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2.HospitalsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2.HospitalsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2.HospitalsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2TableAdapters.HospitalsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyBBMS.MyBBMSDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(MyBBMS.MyBBMSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(MyBBMS.MyBBMSDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.UpdateAll(MyBBMS.MyBBMSDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MyBBMS.MyBBMSDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
